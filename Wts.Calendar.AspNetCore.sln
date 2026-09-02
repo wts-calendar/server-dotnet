@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wts.Calendar.AspNetCore", "src\Wts.Calendar.AspNetCore\Wts.Calendar.AspNetCore.csproj", "{1DA5C16D-981F-4198-A657-906838E01F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wts.Calendar.AspNetCore.Example", "samples\Wts.Calendar.AspNetCore.Example\Wts.Calendar.AspNetCore.Example.csproj", "{B81BB56A-D6D0-4424-866A-E5CEAC4501E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wts.Calendar.AspNetCore.Conformance", "tests\Wts.Calendar.AspNetCore.Conformance\Wts.Calendar.AspNetCore.Conformance.csproj", "{10CECC36-9B19-4FA3-A388-E5F46F7EA96C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DA5C16D-981F-4198-A657-906838E01F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA5C16D-981F-4198-A657-906838E01F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA5C16D-981F-4198-A657-906838E01F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA5C16D-981F-4198-A657-906838E01F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81BB56A-D6D0-4424-866A-E5CEAC4501E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81BB56A-D6D0-4424-866A-E5CEAC4501E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81BB56A-D6D0-4424-866A-E5CEAC4501E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81BB56A-D6D0-4424-866A-E5CEAC4501E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10CECC36-9B19-4FA3-A388-E5F46F7EA96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CECC36-9B19-4FA3-A388-E5F46F7EA96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CECC36-9B19-4FA3-A388-E5F46F7EA96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CECC36-9B19-4FA3-A388-E5F46F7EA96C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

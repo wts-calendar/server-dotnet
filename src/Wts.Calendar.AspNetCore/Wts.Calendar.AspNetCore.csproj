@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IsPackable>true</IsPackable>
+    <PackageId>Wts.Calendar.AspNetCore</PackageId>
+    <Title>WTS Calendar ASP.NET Core Server</Title>
+    <Version>1.0.0</Version>
+    <Authors>Suman Mandal</Authors>
+    <Company>WTS Calendar</Company>
+    <Copyright>Copyright © Suman Mandal</Copyright>
+    <Description>Production-oriented ASP.NET Core REST endpoints for calendar event CRUD, range loading, validation, ETags, optimistic concurrency, and pluggable storage.</Description>
+    <PackageTags>calendar;calendar-api;scheduling;scheduler;aspnetcore;dotnet;minimal-api;rest-api;etag;optimistic-concurrency;angular;react;vue;react-native;wts-calendar</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://wts-calendar.github.io/docs</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/wts-calendar/server-dotnet.git</RepositoryUrl>
+    <PackageReleaseNotes>Initial ASP.NET Core integration with range queries, CRUD endpoints, optimistic concurrency, validation, and a replaceable event store.</PackageReleaseNotes>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" Link="README.md" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="/" Link="LICENSE" />
+  </ItemGroup>
+</Project>
